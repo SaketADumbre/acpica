@@ -1,0 +1,215 @@
+Probe started: Mon Apr  6 21:31:25 UTC 2026
+===== COMMIT 051eccad3 =====
+Checked out: 051eccad3 2018-02-28 13:08:12 -0800 ASLTS: parallelize ASLTS acpiexec execution for speed
+ExitCode: 0
+LatestResult: 20260406.214733.20251212
+PASS=0 FAIL=0 BLOCKED=0 TESTS=
+SummaryTail:
+       BLOCKED :  0
+       SKIPPED :  0
+         total :   0
+         Outstanding allocations after execution : 0
+         Outstanding allocations (ACPI Error)    : 0
+         Memory statistics (per cache type):
+           Total            : 0 Kb
+           Maximum occupied : 0(Kb) 0 0 0 0 0
+           Outstandings     : 0 0 0 0 0 0
+provoke:
+                   (21:47:48-21:47:49 (00:01.00))
+       PASS    :  3
+       FAIL    :  2
+       BLOCKED :  0
+       SKIPPED :  0
+         total :   5
+         Outstanding allocations after execution : 0
+         Outstanding allocations (ACPI Error)    : 2
+         Memory statistics (per cache type):
+           Total            : 395068 Kb
+DurationSec: 1077
+LogTail:
+
+    Difference summary of 64-bit nopt mode
+
+        No pass/fail difference in 64-bit nopt mode
+            total pass: 41
+            total fail: 3
+
+==============================================================================
+
+    Difference summary of 32-bit opt mode
+
+        No pass/fail difference in 32-bit opt mode
+            total pass: 41
+            total fail: 3
+
+==============================================================================
+
+    Difference summary of 64-bit opt mode
+
+        No pass/fail difference in 64-bit opt mode
+            total pass: 41
+            total fail: 3
+
+test type     64 bit opt   64 bit nopt   32 bit opt   32 bit nopt
+------------------------------------------------------------------
+pass diff              0             0            0             0
+fail diff              0             0            0             0
+
+ASL Test Suite Finished: Mon Apr  6 21:48:52 UTC 2026
+                Started: Mon Apr  6 21:46:59 UTC 2026
+
+===== COMMIT 051eccad3^ =====
+Checked out: 0e4dc54f0 2018-02-28 10:47:40 -0800 Merge pull request #366 from SchmErik/aslts_dev03
+ExitCode: 0
+No RESULTS directory created
+DurationSec: 1056
+LogTail:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+Summary prepared 2026-04-06 21:49:02 (01:29.00)
+No summary file to compare against.
+
+ASL Test Suite Finished: Mon Apr  6 21:49:02 UTC 2026
+                Started: Mon Apr  6 21:47:33 UTC 2026
+
+===== COMMIT 051eccad3^ =====
+Checked out: 0e4dc54f0 2018-02-28 10:47:40 -0800 Merge pull request #366 from SchmErik/aslts_dev03
+ExitCode: 0
+LatestResult: 20260406.220437.20251212
+PASS=2 FAIL=0 BLOCKED=0 TESTS=44
+SummaryTail:
+         Memory statistics (per cache type):
+           Total            : 413043 Kb
+           Maximum occupied : 180667(Kb) 582 1300 206 15 99
+           Outstandings     : 311 0 0 98 5 12
+TOTAL:             (64-bit opt mode, 2026-04-06 22:05:16, 2026-04-06 22:05:28 (00:12.00))
+    PASS       :  41
+    FAIL       :  3
+    BLOCKED    :  0
+    SKIPPED    :  0
+    Tests      :   44
+    Test Cases       : 8 (of 48)
+    Test Collections : 4 (of 8),   functional complex bdemo mt
+    Outstanding allocations after execution : 0
+    Outstanding allocations (ACPI Error)    : 5
+    Large Reference Count   (ACPI Error)    : 0
+    Memory consumption total                : 19871871 Kb
+
+
+Summary prepared 2026-04-06 22:05:48 (01:11.00)
+WARNING: some test cases dont have AML code! (135)
+DurationSec: 1024
+LogTail:
+            Fail: +3 (from 0 to 3)
+
+==============================================================================
+
+    Difference summary of 32-bit opt mode
+
+        The previous run did not report any pass numbers for 32-bit opt mode
+        The previous run did not report any pass numbers for 32-bit opt mode
+        Difference in 32-bit opt mode:
+            Pass: +41 (from 0 to 41)
+            Fail: +3 (from 0 to 3)
+
+==============================================================================
+
+    Difference summary of 64-bit opt mode
+
+        The previous run did not report any pass numbers for 64-bit opt mode
+        The previous run did not report any pass numbers for 64-bit opt mode
+        Difference in 64-bit opt mode:
+            Pass: +41 (from 0 to 41)
+            Fail: +3 (from 0 to 3)
+
+test type     64 bit opt   64 bit nopt   32 bit opt   32 bit nopt
+------------------------------------------------------------------
+pass diff             41            41           41            41
+fail diff              3             3            3             3
+Detailed comparsion of previous 2 test runs in /workspaces/acpica/tests/aslts/tmp/RESULTS/20260406.220437.20251212/do2Output.txt
+
+ASL Test Suite Finished: Mon Apr  6 22:05:57 UTC 2026
+                Started: Mon Apr  6 22:04:37 UTC 2026
+
+Probe finished: Mon Apr  6 22:06:00 UTC 2026
+ExitCode: 0
+LatestResult: 20260406.220437.20251212
+PASS=2 FAIL=0 BLOCKED=0 TESTS=44
+SummaryTail:
+         Memory statistics (per cache type):
+           Total            : 413043 Kb
+           Maximum occupied : 180667(Kb) 582 1300 206 15 99
+           Outstandings     : 311 0 0 98 5 12
+TOTAL:             (64-bit opt mode, 2026-04-06 22:05:16, 2026-04-06 22:05:28 (00:12.00))
+    PASS       :  41
+    FAIL       :  3
+    BLOCKED    :  0
+    SKIPPED    :  0
+    Tests      :   44
+    Test Cases       : 8 (of 48)
+    Test Collections : 4 (of 8),   functional complex bdemo mt
+    Outstanding allocations after execution : 0
+    Outstanding allocations (ACPI Error)    : 5
+    Large Reference Count   (ACPI Error)    : 0
+    Memory consumption total                : 19871871 Kb
+
+
+Summary prepared 2026-04-06 22:05:48 (01:11.00)
+WARNING: some test cases dont have AML code! (135)
+DurationSec: 1027
+LogTail:
+
+    Difference summary of 64-bit nopt mode
+
+        No pass/fail difference in 64-bit nopt mode
+            total pass: 41
+            total fail: 3
+
+==============================================================================
+
+    Difference summary of 32-bit opt mode
+
+        No pass/fail difference in 32-bit opt mode
+            total pass: 41
+            total fail: 3
+
+==============================================================================
+
+    Difference summary of 64-bit opt mode
+
+        No pass/fail difference in 64-bit opt mode
+            total pass: 41
+            total fail: 3
+
+test type     64 bit opt   64 bit nopt   32 bit opt   32 bit nopt
+------------------------------------------------------------------
+pass diff              0             0            0             0
+fail diff              0             0            0             0
+
+ASL Test Suite Finished: Mon Apr  6 22:06:10 UTC 2026
+                Started: Mon Apr  6 22:04:59 UTC 2026
+
+Probe finished: Mon Apr  6 22:06:10 UTC 2026
